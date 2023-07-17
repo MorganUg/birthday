@@ -1,0 +1,99 @@
+body {
+  font-family: 'Happy Monkey', cursive;
+  background: linear-gradient(
+    #1490c4,
+    #0b3952
+  );
+  /*background-color: #0b3952;*/
+  color: #1490c4;
+  text-align: center;
+}
+
+h1, h2, h3, h4, p {
+  text-shadow: 0 0 5px black;
+}
+
+.cta-img {
+  width: 600px;
+  border-radius: 10px;
+  border: 4px solid #1490c4;
+}
+
+#age {
+  background-color: #1490c4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+
+#bd-date {
+  background-color: #1490c4;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.gift-img {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  cursor: pointer;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  background-image: url("images/monika-stawowy-Jfj8TLJoqJg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.15s;
+}
+
+#gift-img-happy:hover {
+  background-image: url("images/200w.webp");
+}
+
+#gift-img-hot:hover {
+  background-image: url("images/201.webp");
+}
+
+#gift-img-genius:hover {
+  background-image: url("images/200w\ \(2\).webp");
+}
+
+#gift-img-badass:hover {
+  background-image: url("images/200w\ \(4\).webp");
+}
+
+#gift-img-cheers {
+  height: 300px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("images/200w\ \(5\).webp");
+}
+
+footer {
+  font-style: italic;
+  margin: 60px auto 20px auto;
+  width: 400px;
+}
+
+a {
+  color: #1490c4;
+}
